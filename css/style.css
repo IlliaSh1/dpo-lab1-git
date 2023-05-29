@@ -1527,7 +1527,11 @@ body {
   width: auto;
   height: auto;
 }
-
+.animations__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .push-message {
   z-index: 5;
   position: fixed;

@@ -191,6 +191,14 @@
         width: auto;
         height: auto;
     }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__list-item {}
 }
 
 // TEMPLATE FOR MEDIAS
